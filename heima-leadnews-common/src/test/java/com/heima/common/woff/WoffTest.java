@@ -1,3 +1,4 @@
+/*
 package com.heima.common.woff;
 
 import com.heima.common.ocr.OcrTest;
@@ -25,10 +26,12 @@ public class WoffTest {
         rootPath = OcrTest.class.getResource("/test-woff").getPath();
     }
 
-    /**
+    */
+/**
      * 生产字符库
      * @throws Exception
-     */
+     *//*
+
     @Test
     public void testToCreateLib() throws  Exception{
         Woff woff = new Woff(Base64.getDecoder().decode(woffBase64));
@@ -45,10 +48,12 @@ public class WoffTest {
         }
     }
 
-    /**
+    */
+/**
      * 测试字符识别
      * @throws Exception
-     */
+     *//*
+
     @Test
     public void testOcrMap() throws  Exception{
         Woff woff = new Woff(Base64.getDecoder().decode(woffBase64));
@@ -70,3 +75,4 @@ public class WoffTest {
 
 
 }
+*/
